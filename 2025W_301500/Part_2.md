@@ -4,15 +4,20 @@ ISfinder is a large centralised database of IS elements of Bacteria and Archaea.
 ## Interface
 ### Homepage
 ![](./images/ISfinder/2.01_ISfinder_home.png)
-#### Search function
+
+#### > Search function
 Used to search specific ISs by name, type, etc.
 ![](./images/ISfinder/2.02_ISfinder_home_search.png)
+
+<br/>
+
 #### Blast function
 Used to search the database using a sequence as input
 ![](./images/ISfinder/2.03_ISfinder_home_blast.png)
+
 <br/>
 
-### Search
+### > Search
 XXX
 ![](./images/ISfinder/2.04_ISfinder_search.png)
 #### Let's type in "ISCca4"
