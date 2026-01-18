@@ -10,6 +10,7 @@ Used to search specific ISs by name, type, etc.
 #### Blast function
 Used to search the database using a sequence as input
 ![](./images/ISfinder/2.03_ISfinder_home_blast.png)
+<br/>
 
 ### Search
 XXX
@@ -34,6 +35,7 @@ XXX
 ##### References
 ![](./images/ISfinder/2.13_ISfinder_search_ISCca4_references.png)
 
+<br/>
 
 ## BLASTing a sequence to identify hits
 
