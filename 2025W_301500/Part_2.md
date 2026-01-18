@@ -5,17 +5,15 @@ ISfinder is a large centralised database of IS elements of Bacteria and Archaea.
 ### Homepage
 ![](./images/ISfinder/2.01_ISfinder_home.png)
 
+<br/>
+
 #### > Search function
 Used to search specific ISs by name, type, etc.
 ![](./images/ISfinder/2.02_ISfinder_home_search.png)
 
-<br/>
+<details>
 
-#### Blast function
-Used to search the database using a sequence as input
-![](./images/ISfinder/2.03_ISfinder_home_blast.png)
-
-<br/>
+<summary>Let's search!</summary>
 
 ### > Search
 XXX
@@ -39,6 +37,45 @@ XXX
 ![](./images/ISfinder/2.12_ISfinder_search_ISCca4_comments.png)
 ##### References
 ![](./images/ISfinder/2.13_ISfinder_search_ISCca4_references.png)
+
+</details>
+
+<br/>
+
+#### Blast function
+Used to search the database using a sequence as input
+![](./images/ISfinder/2.03_ISfinder_home_blast.png)
+
+<details>
+
+<summary>Let's BLAST!</summary>
+
+### > BLAST
+XXX
+![](./images/ISfinder/2.04_ISfinder_search.png)
+#### Let's type in "ISCca4"
+![](./images/ISfinder/2.05_ISfinder_search_ISCca4.png)
+##### We get 1 result
+![](./images/ISfinder/2.06_ISfinder_search_ISCca4_result.png)
+#### ISCca4
+##### Details
+![](./images/ISfinder/2.07_ISfinder_search_ISCca4_details.png)
+##### DNA section: Ends & insertion site
+![](./images/ISfinder/2.08_ISfinder_search_ISCca4_DNA_section_part01.png)
+##### DNA section: Inverted repeats (IRL and IRR)
+![](./images/ISfinder/2.09_ISfinder_search_ISCca4_DNA_section_part01_IR.png)
+##### DNA section: sequence
+![](./images/ISfinder/2.10_ISfinder_search_ISCca4_DNA_section_part02.png)
+##### Protein section
+![](./images/ISfinder/2.11_ISfinder_search_ISCca4_protein_section.png)
+##### Comments
+![](./images/ISfinder/2.12_ISfinder_search_ISCca4_comments.png)
+##### References
+![](./images/ISfinder/2.13_ISfinder_search_ISCca4_references.png)
+
+</details>
+
+<br/>
 
 <br/>
 
