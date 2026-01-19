@@ -16,7 +16,8 @@ Used to search specific ISs by name, type, etc.
 <summary>Let's search!</summary>
 
 ### > Search
-XXX
+In the "Search" interface, we can do simple free-text search. In addition, we can further refine our search by adding family, group, host, MGBE type, accession number, and other text-based filtering.
+
 ![](./images/ISfinder/2.04_ISfinder_search.png)
 #### Let's type in "ISCca4"
 ![](./images/ISfinder/2.05_ISfinder_search_ISCca4.png)
