@@ -6,6 +6,11 @@ ISfinder is a large centralised database of IS elements of Bacteria and Archaea.
 [https://isfinder.biotoul.fr](https://isfinder.biotoul.fr/)
 
 ![](./images/ISfinder/2.01_ISfinder_home.png)
+
+#### References
+Siguier P, Perochon J, Lestrade L, Mahillon J, Chandler M. ISfinder: the reference centre for bacterial insertion sequences. *Nucleic acids research* 2006;34:D32-6. [https://doi.org/10.1093/nar/gkj014](https://doi.org/10.1093/nar/gkj014).
+
+Siguier P, Varani A, Perochon J, Chandler M. *Exploring bacterial insertion sequences with ISfinder: objectives, uses, and future developments*. In: Bigot Y (editor). *Mobile Genetic Elements: Protocols and Genomic Applications*. Totowa, NJ: Humana Press. pp. 91–103. [https://doi.org/10.1007/978-1-61779-603-6_5](https://doi.org/10.1007/978-1-61779-603-6_5).
 <br/>
 
 ---
@@ -198,12 +203,6 @@ Summarise the sequence similarity between the query and database hit.
 <br/>
 <br/>
 
-
-## Publications
-Siguier P, Perochon J, Lestrade L, Mahillon J, Chandler M. ISfinder: the reference centre for bacterial insertion sequences. *Nucleic acids research* 2006;34:D32-6. [https://doi.org/10.1093/nar/gkj014](https://doi.org/10.1093/nar/gkj014).
-
-Siguier P, Varani A, Perochon J, Chandler M. *Exploring bacterial insertion sequences with ISfinder: objectives, uses, and future developments*. In: Bigot Y (editor). *Mobile Genetic Elements: Protocols and Genomic Applications*. Totowa, NJ: Humana Press. pp. 91–103. [https://doi.org/10.1007/978-1-61779-603-6_5](https://doi.org/10.1007/978-1-61779-603-6_5).
-
-
-
-👷🏽🏗️ Under construction....
+<p align="right">
+    <kbd> <br> <a href="./Part_3.md"><big><b>Next: Part 3</b></big></a> <br> </kbd>
+</p>
