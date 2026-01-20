@@ -39,6 +39,10 @@ For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria
     <br/><br/>
 
 ### CDS
+<details open>
+  
+  <summary>See more</summary>
+  
 - Back in UGENE, let's now annotate the transposase gene.
   - First, let's use gain that "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">) and input the range of the BLAST hit (`112 - 982`).
 
@@ -101,7 +105,10 @@ For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria
   - Great! Now, our transposase gene is annotated!
 
     ![](./images/UGENE/3.18_UGENE_annot_ISCca4_CDS_wQuals.png)
-    <br/><br/>
+
+</details>
+
+---
 
 ### Repeats
 What about the repeats? How would you go about discovering if this transposase is flanked or not by inverted/direct repeats?
@@ -159,7 +166,8 @@ What about the repeats? How would you go about discovering if this transposase i
     - Now, lets repeat the process for the right-hand side direct repeat.
 
 </details>
-<br/>
+
+---
 
 #### Inverted repeats
 <details open>
@@ -220,8 +228,8 @@ What about the repeats? How would you go about discovering if this transposase i
    - Now, lets do the other direct repeat in a similar fashion.
 
 </details>
-<br/><br/>
 
+---
 
 #### References
 Siguier P, Perochon J, Lestrade L, Mahillon J, Chandler M. ISfinder: the reference centre for bacterial insertion sequences. *Nucleic acids research* 2006;34:D32-6. [https://doi.org/10.1093/nar/gkj014](https://doi.org/10.1093/nar/gkj014).
