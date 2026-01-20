@@ -309,6 +309,7 @@ What about the repeats? How would you go about discovering if this transposase i
 
 ## Further reading
 **INSDC feature table:** [https://www.insdc.org/submitting-standards/feature-table/](https://www.insdc.org/submitting-standards/feature-table/).
+
 ISfinder's *General Information* tab: [https://isfinder.biotoul.fr/general_information.php](https://isfinder.biotoul.fr/general_information.php).
 <br/>
 
