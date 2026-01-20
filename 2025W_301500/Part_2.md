@@ -102,9 +102,9 @@ ISfinder provides many different BLAST algorithms:
 ![](./images/ISfinder/2.04_ISfinder_blast.png)
 <br/><br/>
 
-- Let's search our fist sequence
+- Let's search our fist sequence!
 
-Lets copy and paste the following sequence into the "Query Sequence text-search box".
+Copy and paste the following sequence into the "Query Sequence" text-search box.
 
 ```
 GCCGTATAGGAAGTGTTCTATAAACTGTGTCAAGGCGATAAAAAGTTATAAATTAATTAA
@@ -134,7 +134,7 @@ AACAGGAGATGTGACACAGTTTATAGAACACTTCCGCCGTATA
 ![](./images/ISfinder/2.15_ISfinder_blast_ISCca10.png)
 <br/><br/>
 
-- After a BLAST search, we get a results table, organised from higher (top) to lower (bottom) bit score<sup>1</sup> and E-value<sup>2</sup>
+- After a BLAST search, we get a results table, organised from higher (top) to lower (bottom) bit score<sup>1</sup> and E-value<sup>2</sup>.
 
 ![](./images/ISfinder/2.16_ISfinder_blast_ISCca10_result.png)
 <br/><br/>
