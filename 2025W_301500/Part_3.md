@@ -19,7 +19,7 @@ For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria
     ![](./images/UGENE/3.03_UGENE_annot_ISCca4_sequence_range.png)
     <br/><br/>
 
-- Now lets copy that sequence (<kbd>Ctrl + C</kbd>) and paste it (<kbd>Ctrl + V </kbd>) into ISfinder's BLAST's (`blastx`) search box.
+- Now lets copy that sequence (press <kbd>Ctrl + C</kbd> ⌨️) and paste it (press <kbd>Ctrl + V </kbd> ⌨️) into ISfinder's BLAST's (`blastx`) search box.
 
   ![](./images/UGENE/3.04_ISfinder_blast_ISCca4_sequence.png)
   <br/><br/>
@@ -43,68 +43,68 @@ For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria
   
   <summary>See more</summary>
   
-- Back in UGENE, let's now annotate the transposase gene.
-  - First, let's use gain that "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">) and input the range of the BLAST hit (`112 - 982`).
+  - Back in UGENE, let's now annotate the transposase gene.
+    - First, let's use gain that "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">) and input the range of the BLAST hit (`112 - 982`).
 
-    ![](./images/UGENE/3.07_UGENE_annot_ISCca4_select_hit.png)
-    <br/><br/>
+      ![](./images/UGENE/3.07_UGENE_annot_ISCca4_select_hit.png)
+      <br/><br/>
 
-  - Transposase gene start: `MNVEKLVEI...`. Does it look good?
+    - Transposase gene start: `MNVEKLVEI...`. Does it look good?
 
-    ![](./images/UGENE/3.08_UGENE_annot_ISCca4_select_hit_start.png)
-    <br/><br/>
+      ![](./images/UGENE/3.08_UGENE_annot_ISCca4_select_hit_start.png)
+      <br/><br/>
 
-  - Transposase gene end: `...TNIYMTGSQ`. Does it look good?
+    - Transposase gene end: `...TNIYMTGSQ`. Does it look good?
 
-    ![](./images/UGENE/3.09_UGENE_annot_ISCca4_select_hit_end.png)
-    <br/><br/>
+      ![](./images/UGENE/3.09_UGENE_annot_ISCca4_select_hit_end.png)
+      <br/><br/>
 
-  - Let's modify the end so that it includes the stop codon (*) to `112 - 993` using the "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">).
+    - Let's modify the end so that it includes the stop codon (*) to `112 - 993` using the "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">).
 
-    ![](./images/UGENE/3.10_UGENE_annot_ISCca4_select_hit_modifyRange.png)
-    <br/><br/>
+      ![](./images/UGENE/3.10_UGENE_annot_ISCca4_select_hit_modifyRange.png)
+      <br/><br/>
 
-  - We have now the whole coding sequence (CDS)* selected.
+    - We have now the whole coding sequence (CDS)* selected.
 
-    ![](./images/UGENE/3.11_UGENE_annot_ISCca4_select_hit_correct.png)
-    \** CDS: portion of a gene that is translated into protein. It begins with a start codon (ATG, GTG, TTG) and ends with a stop codon (*).
-    <br/><br/>
+      ![](./images/UGENE/3.11_UGENE_annot_ISCca4_select_hit_correct.png)
+      \** CDS: portion of a gene that is translated into protein. It begins with a start codon (ATG, GTG, TTG) and ends with a stop codon (*).
+      <br/><br/>
 
-  - Let's click (<kbd>Ctrl + N</kbd>) 🖱️. This will open the "Create Annotation" window. We will select `CDS` from the "Annotation type" menu, and write `CDS` in both "Group name" and "Annotation name" fields. Now let's click <img src="./images/UGENE/UGENE_create_button.png" height="17"> 🖱️.
+    - Let's click (<kbd>Ctrl + N</kbd>) 🖱️. This will open the "Create Annotation" window. We will select `CDS` from the "Annotation type" menu, and write `CDS` in both "Group name" and "Annotation name" fields. Now let's click <img src="./images/UGENE/UGENE_create_button.png" height="17"> 🖱️.
 
-    ![](./images/UGENE/3.12_UGENE_annot_ISCca4_CDS_create.png)
-    <br/><br/>
+      ![](./images/UGENE/3.12_UGENE_annot_ISCca4_CDS_create.png)
+      <br/><br/>
 
-  - We have our first CDS!
+    - We have our first CDS!
 
-    ![](./images/UGENE/3.13_UGENE_annot_ISCca4_CDS_feature.png)
-    <br/><br/>
+      ![](./images/UGENE/3.13_UGENE_annot_ISCca4_CDS_feature.png)
+      <br/><br/>
 
-  - Now, time to add some qualifiers (additional fields to the `CDS` feature). This is achieved by selecting the `CDS` and then clicking <kbd>Insert</kbd>. You will get an "Add new qualifier" pop-up window to type in: 
-    - Name: `codon_start`, Value: `1`.
+    - Now, time to add some qualifiers (additional fields to the `CDS` feature). This is achieved by selecting the `CDS` and then pressing <kbd>Insert</kbd> ⌨️. You will get an "Add new qualifier" pop-up window to type in: 
+      - Name: `codon_start`, Value: `1`.
     
-      ![](./images/UGENE/3.14_UGENE_annot_ISCca4_CDS_codonStart_create.png)
-      <br/><br/>
+        ![](./images/UGENE/3.14_UGENE_annot_ISCca4_CDS_codonStart_create.png)
+        <br/><br/>
 
-    - Name: `transl_table`, Value: `11`.
+      - Name: `transl_table`, Value: `11`.
 
-      ![](./images/UGENE/3.15_UGENE_annot_ISCca4_CDS_translTable_create.png)
-      <br/><br/>
+        ![](./images/UGENE/3.15_UGENE_annot_ISCca4_CDS_translTable_create.png)
+        <br/><br/>
 
-    - Name: `product`, Value: `Transposase ISCca4, IS982 family`.
+      - Name: `product`, Value: `Transposase ISCca4, IS982 family`.
 
-      ![](./images/UGENE/3.16_UGENE_annot_ISCca4_CDS_product_create.png)
-      <br/><br/>
+        ![](./images/UGENE/3.16_UGENE_annot_ISCca4_CDS_product_create.png)
+        <br/><br/>
 
-    - Name: `translation`, Value: `MNVEKLVEIYYAVDEFLIKFMPYMEKQLLTNSKRKPTRTCSLTLSEIMTVLIAFHVIGFRNFKSYYIHLQQFHSSKFGKLVRYNRFIELIQRTLVPLYCFTQSLSKTKTGCYFMDATAIKVCHIKRAYTHRVFKSIATKGKTSIGWFFGLKLHLIVNDLGEIMNFQLTTGKTNDRLPVENLCKHFMGKMFADKGYISKDLFEKLIEKGVELITQIRKNMKNAFMPLWDKLMLRKRSIIETIIDQLKNISQIEHSRHRSIPNFLVNLIAGITAYALKEKKPSITNIYMTGSQYV`.
-      To paste translation in the "Value" field (<kbd>Ctrl + V</kbd>), with the `CDS` feature selected, copy the translation of the feature.
+      - Name: `translation`, Value: `MNVEKLVEIYYAVDEFLIKFMPYMEKQLLTNSKRKPTRTCSLTLSEIMTVLIAFHVIGFRNFKSYYIHLQQFHSSKFGKLVRYNRFIELIQRTLVPLYCFTQSLSKTKTGCYFMDATAIKVCHIKRAYTHRVFKSIATKGKTSIGWFFGLKLHLIVNDLGEIMNFQLTTGKTNDRLPVENLCKHFMGKMFADKGYISKDLFEKLIEKGVELITQIRKNMKNAFMPLWDKLMLRKRSIIETIIDQLKNISQIEHSRHRSIPNFLVNLIAGITAYALKEKKPSITNIYMTGSQYV`.
+        To paste translation in the "Value" field (<kbd>Ctrl + V</kbd> ⌨️), with the `CDS` feature selected, first copy the translation of the feature (press <kbd>Ctrl + T</kbd> ⌨️).
 
-      ![](./images/UGENE/3.17_UGENE_annot_ISCca4_CDS_tranlsation_create.png)
-      <br/><br/>
+        ![](./images/UGENE/3.17_UGENE_annot_ISCca4_CDS_tranlsation_create.png)
+        <br/><br/>
 
-  - Great! Now, our transposase gene is annotated!
+    - Great work! Now, our transposase gene is annotated!
 
-    ![](./images/UGENE/3.18_UGENE_annot_ISCca4_CDS_wQuals.png)
+      ![](./images/UGENE/3.18_UGENE_annot_ISCca4_CDS_wQuals.png)
 
 </details>
 
@@ -118,7 +118,7 @@ What about the repeats? How would you go about discovering if this transposase i
   
   <summary>See more</summary>
   
-  - First, lets grab the first 10 and last 10 nucleotides to search for **direct repeats**. We can do this using the "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">) 🖱️, setting the ranges `1..10` and `1003..1012` and then clicking <img src="./images/UGENE/UGENE_go_button.png" height="17"> 🖱️. Once region is selected hit <kbd>Ctrl + C</kbd> to copy.
+  - First, lets grab the first 10 and last 10 nucleotides to search for **direct repeats**. We can do this using the "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">) 🖱️, setting the ranges `1..10` and `1003..1012` and then clicking <img src="./images/UGENE/UGENE_go_button.png" height="17"> 🖱️. Once region is selected, press <kbd>Ctrl + C</kbd> ⌨️ to copy.
 
     NOTE: In this case, we are working with a full transposase gene. Usually, it makes more sense to search for inverted repeats first, as they are longer.
     
@@ -147,12 +147,12 @@ What about the repeats? How would you go about discovering if this transposase i
     Any others?
     <br/><br/>
     
-    - To create the annotations, manually select the direct repeats at the start (`1 - 5`) and end (`1008 - 1012`) of the sequence. For each, click (<kbd>Ctrl + N</kbd>) 🖱️. This will open the "Create Annotation" window. We will select `repeat_region` from the "Annotation type" menu, and write `repeat_region` in both "Group name" and "Annotation name" fields. Now let's click <img src="./images/UGENE/UGENE_create_button.png" height="17"> 🖱️.
+    - To create the annotations, manually select the direct repeats at the start (`1 - 5`) and end (`1008 - 1012`) of the sequence. For each, press <kbd>Ctrl + N</kbd> ⌨️. This will open the "Create Annotation" window. We will select `repeat_region` from the "Annotation type" menu, and write `repeat_region` in both "Group name" and "Annotation name" fields. Now let's click <img src="./images/UGENE/UGENE_create_button.png" height="17"> 🖱️.
     
       ![](./images/UGENE/3.21_UGENE_annot_ISCca4_DR_create.png)
       <br/><br/>
  
-    - As with `CDS`, we need to add some qualifiers. This is achieved by selecting the `repeat_region` and then clicking <kbd>Insert</kbd>. You will get an "Add new qualifier" pop-up window to type in: 
+    - As with `CDS`, we need to add some qualifiers. This is achieved by selecting the `repeat_region` and then pressing <kbd>Insert</kbd> ⌨️. You will get an "Add new qualifier" pop-up window to type in: 
       - Name: `rpt_type`, Value: `DIRECT`.
     
         ![](./images/UGENE/3.22_UGENE_annot_ISCca4_DR_rptType_create.png)
@@ -174,16 +174,16 @@ What about the repeats? How would you go about discovering if this transposase i
   
   <summary>See more</summary>
   
-  - To the **inverted repeats**! lets grab the first 30 and last 30 nucleotides after and before the annotated direct repeats. We can do this using the "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">) 🖱️, setting the ranges `6 - 35` and `978 - 1007` and then clicking <img src="./images/UGENE/UGENE_go_button.png" height="17"> 🖱️. Once region is selected hit <kbd>Ctrl + C</kbd> to copy the forward region (left) and <kbd>Ctrl + Shift + C</kbd> to copy the reverse complement of the reverse region (right).
+  - To the **inverted repeats**! lets grab the first 30 and last 30 nucleotides after and before the annotated direct repeats. We can do this using the "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">) 🖱️, setting the ranges `6 - 35` and `978 - 1007` and then clicking <img src="./images/UGENE/UGENE_go_button.png" height="17"> 🖱️. Once region is selected, press <kbd>Ctrl + C</kbd> ⌨️ to copy the forward region (left) and <kbd>Ctrl + Shift + C</kbd> ⌨️ to copy the reverse complement of the reverse region (right).
     
     ![](./images/UGENE/3.24_UGENE_annot_ISCca4_IR_IRL_select.png)
    
-    <kbd>Ctrl + C</kbd>
+    Press <kbd>Ctrl + C</kbd> ⌨️
     <br/>
     
     ![](./images/UGENE/3.25_UGENE_annot_ISCca4_IR_IRR_select.png)
     
-    <kbd>Ctrl + Shift + C</kbd>
+    Press <kbd>Ctrl + Shift + C</kbd> ⌨️
     <br/>
 
   - We can go ahead and align these sequences. So let's go to the [T-COFEE](https://tcoffee.crg.eu/apps/tcoffee/do:mcoffee) website and paste the IRL and IRR region sequences.
@@ -209,12 +209,12 @@ What about the repeats? How would you go about discovering if this transposase i
       ```
       <br/>
     
-  - To create the annotations, use the search box in UGENE copy and pasting the identidied sequences for IRL (ACCTAAGTTCGGGATTAG) and IRR (). After pasting, and clicking XXXX, region will be selected. For each, press (<kbd>Ctrl + N</kbd>) ⌨️. This will open the "Create Annotation" window. We will select `repeat_region` from the "Annotation type" menu, and write `repeat_region` in both "Group name" and "Annotation name" fields. Now let's click <img src="./images/UGENE/UGENE_create_button.png" height="17"> 🖱️. **\*Note:** For IRR, make sure to check the XXX button. 
+  - To create the annotations, use the search box in UGENE copy and pasting the identidied sequences for IRL (ACCTAAGTTCGGGATTAG) and IRR (). After pasting, and clicking XXXX, region will be selected. For each, press <kbd>Ctrl + N</kbd> ⌨️. This will open the "Create Annotation" window. We will select `repeat_region` from the "Annotation type" menu, and write `repeat_region` in both "Group name" and "Annotation name" fields. Now let's click <img src="./images/UGENE/UGENE_create_button.png" height="17"> 🖱️. **\*Note:** For IRR, make sure to check the XXX button. 
     
     ![](./images/UGENE/3.21_UGENE_annot_ISCca4_DR_create.png)
     <br/><br/>
  
-  - As with `CDS`, we need to add some qualifiers. This is achieved by selecting the `repeat_region` and then pushing <kbd>Insert</kbd>. You will get an "Add new qualifier" pop-up window to type in: 
+  - As with `CDS`, we need to add some qualifiers. This is achieved by selecting the `repeat_region` and then pressing <kbd>Insert</kbd>. You will get an "Add new qualifier" pop-up window to type in: 
     - Name: `rpt_type`, Value: `DIRECT`.
       
       ![](./images/UGENE/3.22_UGENE_annot_ISCca4_DR_rptType_create.png)
