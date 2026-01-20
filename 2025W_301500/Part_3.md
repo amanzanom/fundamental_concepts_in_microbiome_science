@@ -1,5 +1,4 @@
 # Part 3: Annotation of a "typical" IS element (together)
-👷🏽🏗️ Under construction....
 
 ## Annotate ISCca4
 For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria. So, let's go ahead and download the [`ISCca4.fasta`](./data/ISCca4.fasta) (right click 🖱️ and download).
@@ -241,8 +240,8 @@ What about the repeats? How would you go about discovering if this transposase i
 
 ---
 
-#### References
-Siguier P, Perochon J, Lestrade L, Mahillon J, Chandler M. ISfinder: the reference centre for bacterial insertion sequences. *Nucleic acids research* 2006;34:D32-6. [https://doi.org/10.1093/nar/gkj014](https://doi.org/10.1093/nar/gkj014).
+#### Further reading
+**INSDC feature table:** [https://www.insdc.org/submitting-standards/feature-table/](https://www.insdc.org/submitting-standards/feature-table/).
 
 Siguier P, Varani A, Perochon J, Chandler M. *Exploring bacterial insertion sequences with ISfinder: objectives, uses, and future developments*. In: Bigot Y (editor). *Mobile Genetic Elements: Protocols and Genomic Applications*. Totowa, NJ: Humana Press. pp. 91–103. [https://doi.org/10.1007/978-1-61779-603-6_5](https://doi.org/10.1007/978-1-61779-603-6_5).
 <br/>
