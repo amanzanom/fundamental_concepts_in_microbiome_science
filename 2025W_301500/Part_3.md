@@ -296,7 +296,7 @@ What about the repeats? How would you go about discovering if this transposase i
     
   - Set the name of the output file to `ISCca4.gb` and select `GenBank` form the "File format to use" drop-down menu. Now click <img src="./images/UGENE/UGENE_export_button.png" height="17"> 🖱️.
 
-    ![](./images/UGENE/3.41_UGENE_ISCca4_ME_annot_final_export_gbkFile)
+    ![](./images/UGENE/3.41_UGENE_ISCca4_ME_annot_final_export_gbkFile.png)
     <br/><br/>
  
   - Done!
