@@ -1,17 +1,42 @@
 # Part 3: Annotation of a "typical" IS element (together)
 👷🏽🏗️ Under construction....
 
+## Annotate ISCca4
 For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria. So, let's go ahead and download the [`ISCca4.fasta`](./data/ISCca4.fasta) (right click 🖱️ and download).
 
 - Drag the downloaded file (`ISCca4.fasta`) into UGENE or open it (Top-left corner `File -> Open`).
 
-![](./images/UGENE/3.01_UGENE_annot_ISCca4_sequence.png)
-<br/><br/>
+  ![](./images/UGENE/3.01_UGENE_annot_ISCca4_sequence.png)
+  <br/><br/>
 
-- Click on the "Select sequence region" button (![](./images/UGENE "Select sequence region")).
+  - Click on the "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17">).
 
-![](./images/UGENE/3.02_UGENE_annot_ISCca4_sequence_select)
-<br/><br/>
+    ![](./images/UGENE/3.02_UGENE_annot_ISCca4_sequence_select.png)
+    <br/><br/>
+
+  - We can choose any range from 1 - n (n= maximun length of sequence). By default, we get from start to end, unless we preselect manually a certain range. Let's then proceed and hit that <img src="./images/UGENE/UGENE_go_button.png" height="17">  button.
+
+    ![](./images/UGENE/3.03_UGENE_annot_ISCca4_sequence_range.png)
+    <br/><br/>
+
+- Now lets copy that sequence (<kbd>Ctrl + C</kbd>) and paste it (<kbd>Ctrl + V </kbd>) into ISfinder's BLAST search box.
+
+  ![](./images/UGENE/3.04_ISfinder_blast_ISCca4_sequence.png)
+  <br/><br/>
+
+  - We then go to the top hit (`ISCca4`) and click on the bit score (`511` 🖱️).
+
+    ![](./images/UGENE/3.05_ISfinder_blast_ISCca4_sequence_topHit.png)
+    <br/><br/>
+
+  - Now let's look at the alignment.
+    - Did we detect a transposase gene?
+    - Is it complete?
+    - Are we dealing with the same transposase?
+    
+    ![](./images/UGENE/3.05_ISfinder_blast_ISCca4_sequence_topHit.png)
+    <br/><br/>
+ 
 
 ## Interface
 ### Homepage
