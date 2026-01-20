@@ -38,7 +38,7 @@ For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria
     <br/><br/>
 
 ### CDS
-<details open>
+<details>
   
   <summary>See more</summary>
   
@@ -113,7 +113,7 @@ For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria
 What about the repeats? How would you go about discovering if this transposase is flanked or not by inverted/direct repeats?
 
 #### Direct repeats
-<details open>
+<details>
   
   <summary>See more</summary>
   
@@ -169,7 +169,7 @@ What about the repeats? How would you go about discovering if this transposase i
 ---
 
 #### Inverted repeats
-<details open>
+<details>
   
   <summary>See more</summary>
   
