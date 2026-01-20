@@ -40,50 +40,70 @@ For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria
 
 - Back in UGENE, let's now annotate the transposase gene.
   - First, let's use gain that "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">) and input the range of the BLAST hit (`112 - 982`).
+
     ![](./images/UGENE/3.07_UGENE_annot_ISCca4_select_hit.png)
     <br/><br/>
 
   - Transposase gene start: `MNVEKLVEI...`. Does it look good?
+
     ![](./images/UGENE/3.08_UGENE_annot_ISCca4_select_hit_start.png)
     <br/><br/>
 
   - Transposase gene end: `...TNIYMTGSQ`. Does it look good?
+
     ![](./images/UGENE/3.09_UGENE_annot_ISCca4_select_hit_end.png)
     <br/><br/>
 
-  - Let's modify the end so that it includes the stop codon (*) to `112 - 993` using the "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">) .
+  - Let's modify the end so that it includes the stop codon (*) to `112 - 993` using the "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">).
+
     ![](./images/UGENE/3.10_UGENE_annot_ISCca4_select_hit_modifyRange.png)
     <br/><br/>
 
-  - XXXXXXXXXX.
+  - We have now the whole coding sequence (CDS)* selected.
+
     ![](./images/UGENE/3.11_UGENE_annot_ISCca4_select_hit_correct.png)
+    \** CDS: portion of a gene that is translated into protein. It begins with a start codon (ATG, GTG, TTG) and ends with a stop codon (*).
     <br/><br/>
 
-  - XXXXXXXXXX.
+  - Let's click (<kbd>Ctrl + N</kbd>). This will open the "Create Annotation" window. We will select `CDS` from the "Annotation type" menu, and write `CDS` in both "Group name" and "Annotation name" fields. Now let's click <img src="./images/UGENE/UGENE_create_button.png" height="17" title="Select sequence region"> 🖱️.
+
     ![](./images/UGENE/3.12_UGENE_annot_ISCca4_CDS_create.png)
     <br/><br/>
 
-  - XXXXXXXXXX.
+  - We have our first CDS!
+
     ![](./images/UGENE/3.13_UGENE_annot_ISCca4_CDS_feature.png)
     <br/><br/>
 
-  - XXXXXXXXXX.
-    ![](./images/UGENE/3.14_UGENE_annot_ISCca4_CDS_codonStart_create.png)
+  - Now, time to add some qualifiers (additional fields to the `CDS` feature). This is achieved by selecting the `CDS` and then clicking <kbd>Insert</kbd>. You will get an "Add new qualifier" pop-up window to type in: 
+    - Name: `codon_start`, Value: `1`.
+    
+      ![](./images/UGENE/3.14_UGENE_annot_ISCca4_CDS_codonStart_create.png)
+      <br/><br/>
+
+    - Name: `transl_table`, Value: `11`.
+
+      ![](./images/UGENE/3.15_UGENE_annot_ISCca4_CDS_translTable_create.png)
+      <br/><br/>
+
+    - Name: `product`, Value: `Transposase ISCca4, IS982 family`.
+
+      ![](./images/UGENE/3.16_UGENE_annot_ISCca4_CDS_product_create.png)
+      <br/><br/>
+
+    - Name: `translation`, Value: `MNVEKLVEIYYAVDEFLIKFMPYMEKQLLTNSKRKPTRTCSLTLSEIMTVLIAFHVIGFRNFKSYYIHLQQFHSSKFGKLVRYNRFIELIQRTLVPLYCFTQSLSKTKTGCYFMDATAIKVCHIKRAYTHRVFKSIATKGKTSIGWFFGLKLHLIVNDLGEIMNFQLTTGKTNDRLPVENLCKHFMGKMFADKGYISKDLFEKLIEKGVELITQIRKNMKNAFMPLWDKLMLRKRSIIETIIDQLKNISQIEHSRHRSIPNFLVNLIAGITAYALKEKKPSITNIYMTGSQYV`.
+      To paste translation in the "Value" field (<kbd>Ctrl + V</kbd>), with the `CDS` feature selected, copy the translation of the feature.
+
+      ![](./images/UGENE/3.17_UGENE_annot_ISCca4_CDS_tranlsation_create.png)
+      <br/><br/>
+
+  - Great! Now, our transposase gene is annotated!
+    ![](./images/UGENE/3.18_UGENE_annot_ISCca4_CDS_wQuals.png)
     <br/><br/>
 
-  - XXXXXXXXXX.
-    ![](./images/UGENE/3.15_UGENE_annot_ISCca4_CDS_translTable_create.png)
-    <br/><br/>
+  - What about the repeats? For this, we will use [T-coffee](https://tcoffee.crg.eu/apps/tcoffee/do:mcoffee) for alignment.
+    How would you go about discovering if this transposase is flanked or not by inverted/direct repeats?
 
-  - XXXXXXXXXX.
-    ![](./images/UGENE/3.16_UGENE_annot_ISCca4_CDS_product_create.png)
-    <br/><br/>
-
-  - XXXXXXXXXX.
-    ![](./images/UGENE/3.17_UGENE_annot_ISCca4_CDS_tranlsation_create.png)
-    <br/><br/>
-
-  - XXXXXXXXXX.
     ![](./images/UGENE/3.18_UGENE_annot_ISCca4_CDS_wQuals.png)
     <br/><br/>
 
