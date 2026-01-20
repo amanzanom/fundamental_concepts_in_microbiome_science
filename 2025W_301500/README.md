@@ -7,7 +7,7 @@ This repository contains the exercise section of the *Genes on the Move* lecture
 
 ## Overview and Exercise Description
 This exercise will consist of four different parts:
-1. Part 1: Introduction to IS elements
+1. Part 1: Introduction to IS elements (already covered in the presentation)
 2. Part 2: [ISfinder database](Part_2.md)
 3. Part 3: [Annotation of a "typical" IS element (together)](Part_3.md)
 4. Part 4: [Annotate your own IS elements (independent)](Part_4.md)
