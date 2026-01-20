@@ -5,10 +5,13 @@ For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria
 
 - Drag the downloaded file (`ISCca4.fasta`) into UGENE or open it (Top-left corner `File -> Open`).
 
-![](./images/ISfinder/2.04_ISfinder_search.png)
+![](./images/UGENE/3.01_UGENE_annot_ISCca4_sequence.png)
 <br/><br/>
 
-ISfinder is a large centralised database of IS elements of Bacteria and Archaea. It also serves as a valuable resource for annotation of similar and related IS elements to those in the database. In fact, popular annotation pipelines, such as [Prokka](https://github.com/tseemann/prokka) or [Bakta](https://github.com/oschwengers/bakta?tab=readme-ov-file#database), use this database to make predictions on open reading frames (or predicted proteins).
+- Click on the "Select sequence region" button (![](./images/UGENE "Select sequence region")).
+
+![](./images/UGENE/3.02_UGENE_annot_ISCca4_sequence_select)
+<br/><br/>
 
 ## Interface
 ### Homepage
