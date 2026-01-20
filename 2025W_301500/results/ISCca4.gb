@@ -6,7 +6,7 @@ SOURCE      Cardinium sp.
   ORGANISM  Cardinium sp.
             Unclassified.
 FEATURES             Location/Qualifiers
-     source          1..1137202
+     source          1..1012
                      /organism="Cardinium endosymbiont of Oedothorax gibbosus"
                      /host="Oedothorax gibbosus"
                      /chromosome="1"
