@@ -9,7 +9,7 @@ For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria
   ![](./images/UGENE/3.01_UGENE_annot_ISCca4_sequence.png)
   <br/><br/>
 
-  - Click on the "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17">).
+  - Click on the "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">).
 
     ![](./images/UGENE/3.02_UGENE_annot_ISCca4_sequence_select.png)
     <br/><br/>
@@ -19,7 +19,7 @@ For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria
     ![](./images/UGENE/3.03_UGENE_annot_ISCca4_sequence_range.png)
     <br/><br/>
 
-- Now lets copy that sequence (<kbd>Ctrl + C</kbd>) and paste it (<kbd>Ctrl + V </kbd>) into ISfinder's BLAST search box.
+- Now lets copy that sequence (<kbd>Ctrl + C</kbd>) and paste it (<kbd>Ctrl + V </kbd>) into ISfinder's BLAST's (`blastx`) search box.
 
   ![](./images/UGENE/3.04_ISfinder_blast_ISCca4_sequence.png)
   <br/><br/>
@@ -31,12 +31,17 @@ For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria
 
   - Now let's look at the alignment.
     - Did we detect a transposase gene?
+    - Which family?
     - Is it complete?
     - Are we dealing with the same transposase?
     
-    ![](./images/UGENE/3.05_ISfinder_blast_ISCca4_sequence_topHit.png)
+    ![](./images/UGENE/3.06_ISfinder_blast_ISCca4_sequence_align.png)
     <br/><br/>
- 
+
+- Back in UGENE, let's now annotate the transposase gene.
+  - First, lets use gain that "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">)
+    ![](./images/UGENE/3.04_ISfinder_blast_ISCca4_sequence.png)
+    <br/><br/>
 
 ## Interface
 ### Homepage
