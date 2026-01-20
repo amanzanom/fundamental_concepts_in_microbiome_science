@@ -79,7 +79,7 @@ Used to search the database using a sequence as input
 
 ![](./images/ISfinder/2.03_ISfinder_home_blast.png)
 
-<details open>
+<details>
 
 <summary>Let's BLAST!</summary>
 <br/>
@@ -134,7 +134,7 @@ AACAGGAGATGTGACACAGTTTATAGAACACTTCCGCCGTATA
 ![](./images/ISfinder/2.16_ISfinder_blast_ISCca10_result.png)
 <br/><br/>
 
-<details open>
+<details>
 
 <summary><sup>1,2</sup></summary>
 
