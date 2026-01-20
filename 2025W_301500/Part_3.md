@@ -38,6 +38,7 @@ For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria
     ![](./images/UGENE/3.06_ISfinder_blast_ISCca4_sequence_align.png)
     <br/><br/>
 
+### CDS
 - Back in UGENE, let's now annotate the transposase gene.
   - First, let's use gain that "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">) and input the range of the BLAST hit (`112 - 982`).
 
@@ -102,40 +103,42 @@ For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria
     ![](./images/UGENE/3.18_UGENE_annot_ISCca4_CDS_wQuals.png)
     <br/><br/>
 
-  - What about the repeats? How would you go about discovering if this transposase is flanked or not by inverted/direct repeats?
- 
-    <details open>
+### Repeats
+What about the repeats? How would you go about discovering if this transposase is flanked or not by inverted/direct repeats?
 
-    <summary>See more</summary>
- 
-    - First, lets grab the first 10 and last 10 nucleotides to search for **direct repeats**. We can do this using the "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">) 🖱️, setting the ranges `1..10` and `1003..1012` and then clicking <img src="./images/UGENE/UGENE_go_button.png" height="17"> 🖱️. Once region is selected hit <kbd>Ctrl + C</kbd> to copy.
+#### Direct repeats
+<details open>
+  
+  <summary>See more</summary>
+  
+  - First, lets grab the first 10 and last 10 nucleotides to search for **direct repeats**. We can do this using the "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">) 🖱️, setting the ranges `1..10` and `1003..1012` and then clicking <img src="./images/UGENE/UGENE_go_button.png" height="17"> 🖱️. Once region is selected hit <kbd>Ctrl + C</kbd> to copy.
 
-      NOTE: In this case, we are working with a full transposase gene. Usually, it makes more sense to search for inverted repeats first, as they are longer.
+    NOTE: In this case, we are working with a full transposase gene. Usually, it makes more sense to search for inverted repeats first, as they are longer.
     
-      ![](./images/UGENE/3.19_UGENE_annot_ISCca4_DR_select_start.png)
-      <br/>
+    ![](./images/UGENE/3.19_UGENE_annot_ISCca4_DR_select_start.png)
+    <br/>
  
-      ![](./images/UGENE/3.20_UGENE_annot_ISCca4_DR_select_end.png)
-      <br/><br/>
+    ![](./images/UGENE/3.20_UGENE_annot_ISCca4_DR_select_end.png)
+    <br/><br/>
 
-    - We can go ahead and align these sequences, but it makes more sense to visually inspect them.
+  - We can go ahead and align these sequences, but it makes more sense to visually inspect them.
    
-      Solution 1:
-      
-      ```
-      --------TAATAACCTA # start
-      GAGGTTAATA-------- # end
-      ```
-   
-      Solution 2:
-      
-      ```
-      -----TAATAACCTA # start
-      GAGGTTAATA----- # end
-      ```
-   
-     Any others?
-     <br/><br/>
+    Solution 1:
+    
+    ```
+    --------TAATAACCTA # start
+    GAGGTTAATA-------- # end
+    ```
+    
+    Solution 2:
+    
+    ```
+    -----TAATAACCTA # start
+    GAGGTTAATA----- # end
+    ```
+    
+    Any others?
+    <br/><br/>
     
     - To create the annotations, manually select the direct repeats at the start (`1 - 5`) and end (`1008 - 1012`) of the sequence. For each, click (<kbd>Ctrl + N</kbd>) 🖱️. This will open the "Create Annotation" window. We will select `repeat_region` from the "Annotation type" menu, and write `repeat_region` in both "Group name" and "Annotation name" fields. Now let's click <img src="./images/UGENE/UGENE_create_button.png" height="17"> 🖱️.
     
@@ -153,61 +156,71 @@ For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria
         ![](./images/UGENE/3.23_UGENE_annot_ISCca4_DR_note_create.png)
         <br/><br/>
  
-     - Now, lets do the other direct repeat.
+    - Now, lets repeat the process for the right-hand side direct repeat.
 
+</details>
+<br/>
 
-
-
-
-
-
-
-
-
-    - To the **inverted repeats**! lets grab the first 30 and last 30 nucleotides after and before the annotated direct repeats. We can do this using the "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">) 🖱️, setting the ranges `6 - 35` and `978 - 1007` and then clicking <img src="./images/UGENE/UGENE_go_button.png" height="17"> 🖱️. Once region is selected hit <kbd>Ctrl + C</kbd> to copy the forward region (left) and <kbd>Ctrl + Shift + C</kbd> to copy the reverse complement of the reverse region (right).
+#### Inverted repeats
+<details open>
+  
+  <summary>See more</summary>
+  
+  - To the **inverted repeats**! lets grab the first 30 and last 30 nucleotides after and before the annotated direct repeats. We can do this using the "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">) 🖱️, setting the ranges `6 - 35` and `978 - 1007` and then clicking <img src="./images/UGENE/UGENE_go_button.png" height="17"> 🖱️. Once region is selected hit <kbd>Ctrl + C</kbd> to copy the forward region (left) and <kbd>Ctrl + Shift + C</kbd> to copy the reverse complement of the reverse region (right).
     
-      ![](./images/UGENE/3.24_UGENE_annot_ISCca4_IR_IRL_select.png)
-      <br/>
- 
-      ![](./images/UGENE/3.25_UGENE_annot_ISCca4_IR_IRR_select.png)
-      <br/><br/>
+    ![](./images/UGENE/3.24_UGENE_annot_ISCca4_IR_IRL_select.png)
+   
+    <kbd>Ctrl + C</kbd>
+    <br/>
+    
+    ![](./images/UGENE/3.25_UGENE_annot_ISCca4_IR_IRR_select.png)
+    
+    <kbd>Ctrl + Shift + C</kbd>
+    <br/>
 
-    - We can go ahead and align these sequences. So let's go to the [T-COFEE](https://tcoffee.crg.eu/apps/tcoffee/do:mcoffee) website and paste the IRL and IRR region sequences.
+  - We can go ahead and align these sequences. So let's go to the [T-COFEE](https://tcoffee.crg.eu/apps/tcoffee/do:mcoffee) website and paste the IRL and IRR region sequences.
+
+    ![](./images/UGENE/3.26_TCOFEE_align_ISCca4_IRL_vs_IRR_run.png)
+    <br/>
+
+    - Lets look at the result. What is the sequence of the inverted repeat?
+
+      ![](./images/UGENE/3.27_TCOFEE_align_ISCca4_IRL_vs_IRR_result.png)
+   
+      ** ACCT(A/C)AGTTCGGGATTAG
+      <br/>
+   
+    - How does this compare to the inverted repeat sequence of [`ISCca4`](https://isfinder.biotoul.fr/scripts/ficheIS.php?name=ISCca4)?
       
       ```
-      >IRL
-      ACCTAAGTTCGGGATTAGCTTGTTAAAAAA
-      >IRR
-      ACCTCAGTTCGGGATTAGACGTATTGTGAA
+      ACCTAAGTTCGGGATTAG  # our IRL
+      ACCTCAGTTCGGGATTAG  # our IRR
+      ACGTCAGTTTTGGATTAGA # ISCca4 IRL (ISfinder, length 18/19)
+      ACGTGAGTTTCGGATTAGA # ISCca4 IRR (ISfinder, length 18/19)
+      ** * ****  *******  # sequence match
       ```
-   
-     Any others?
-     <br/><br/>
+      <br/>
     
-    - To create the annotations, manually select the direct repeats at the start () and end () of the sequence. For each, click (<kbd>Ctrl + N</kbd>) 🖱️. This will open the "Create Annotation" window. We will select `repeat_region` from the "Annotation type" menu, and write `repeat_region` in both "Group name" and "Annotation name" fields. Now let's click <img src="./images/UGENE/UGENE_create_button.png" height="17"> 🖱️.
+  - To create the annotations, use the search box in UGENE the inverted repeats at the start () and end () of the sequence. For each, click (<kbd>Ctrl + N</kbd>) 🖱️. This will open the "Create Annotation" window. We will select `repeat_region` from the "Annotation type" menu, and write `repeat_region` in both "Group name" and "Annotation name" fields. Now let's click <img src="./images/UGENE/UGENE_create_button.png" height="17"> 🖱️.
     
-      ![](./images/UGENE/3.21_UGENE_annot_ISCca4_DR_create.png)
+    ![](./images/UGENE/3.21_UGENE_annot_ISCca4_DR_create.png)
+    <br/><br/>
+ 
+  - As with `CDS`, we need to add some qualifiers. This is achieved by selecting the `repeat_region` and then pushing <kbd>Insert</kbd>. You will get an "Add new qualifier" pop-up window to type in: 
+    - Name: `rpt_type`, Value: `DIRECT`.
+      
+      ![](./images/UGENE/3.22_UGENE_annot_ISCca4_DR_rptType_create.png)
+      <br/><br/>
+
+    - Name: `note`, Value: `target site duplication generated by insertion of ISCca10`.
+      
+      ![](./images/UGENE/3.23_UGENE_annot_ISCca4_DR_note_create.png)
       <br/><br/>
  
-    - As with `CDS`, we need to add some qualifiers. This is achieved by selecting the `repeat_region` and then clicking <kbd>Insert</kbd>. You will get an "Add new qualifier" pop-up window to type in: 
-      - Name: `rpt_type`, Value: `DIRECT`.
-    
-        ![](./images/UGENE/3.22_UGENE_annot_ISCca4_DR_rptType_create.png)
-        <br/><br/>
+   - Now, lets do the other direct repeat in a similar fashion.
 
-      - Name: `note`, Value: `target site duplication generated by insertion of ISCca10`.
-
-        ![](./images/UGENE/3.23_UGENE_annot_ISCca4_DR_note_create.png)
-        <br/><br/>
- 
-     - Now, lets do the other direct repeat.
-
-
-
-
-
-    </details>
-    <br/><br/>
+</details>
+<br/><br/>
 
 
 #### References
