@@ -301,9 +301,9 @@ What about the repeats? How would you go about discovering if this transposase i
  
   - Done!
 
-</details>
+  🥳 Congrats! If you made it all the way down here, you succesfuly annotated your first IS element! 🥳
 
-Congrats! If you made it all the way down here, you succesfuly annotated your first IS element! 🥳
+</details>
 
 ---
 
