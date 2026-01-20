@@ -201,7 +201,7 @@ What about the repeats? How would you go about discovering if this transposase i
       ```
       <br/>
     
-  - To create the annotations, use the search box in UGENE the inverted repeats at the start () and end () of the sequence. For each, click (<kbd>Ctrl + N</kbd>) 🖱️. This will open the "Create Annotation" window. We will select `repeat_region` from the "Annotation type" menu, and write `repeat_region` in both "Group name" and "Annotation name" fields. Now let's click <img src="./images/UGENE/UGENE_create_button.png" height="17"> 🖱️.
+  - To create the annotations, use the search box in UGENE copy and pasting the identidied sequences for IRL (ACCTAAGTTCGGGATTAG) and IRR (). After pasting, and clicking XXXX, region will be selected. For each, press (<kbd>Ctrl + N</kbd>) ⌨️. This will open the "Create Annotation" window. We will select `repeat_region` from the "Annotation type" menu, and write `repeat_region` in both "Group name" and "Annotation name" fields. Now let's click <img src="./images/UGENE/UGENE_create_button.png" height="17"> 🖱️. **\*Note:** For IRR, make sure to check the XXX button. 
     
     ![](./images/UGENE/3.21_UGENE_annot_ISCca4_DR_create.png)
     <br/><br/>
