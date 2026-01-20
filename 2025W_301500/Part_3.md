@@ -240,6 +240,73 @@ What about the repeats? How would you go about discovering if this transposase i
 
 ---
 
+#### Mobile element feature
+<details>
+  
+  <summary>See more</summary>
+  Your current annotation should look somehting like this
+
+  ![](./images/UGENE/3.33_UGENE_ISCca4_allFeatures.png)
+  <br/><br/>
+  
+  - Now that we have all features of the IS element annotated, we group them inside a `mobile_element` feature. For this, lets choose a range that covers all the mobile element, in this case, from IRL to IRR (`1 - 1012`) and click <img src="./images/UGENE/UGENE_go_button.png" height="17"> 🖱️.
+
+    ![](./images/UGENE/3.34_UGENE_ISCca4_ME_search.png)
+    <br/><br/>
+    
+  - Once the region is selected, press <kbd>Ctrl + N</kbd> ⌨️. This will open the "Create Annotation" window. We will select `mobile_element` from the "Annotation type" menu, and write `mobile_element` in both "Group name" and "Annotation name" fields. Now let's click <img src="./images/UGENE/UGENE_create_button.png" height="17"> 🖱️.
+
+    ![](./images/UGENE/3.35_UGENE_ISCca4_ME_annot.png)
+    <br/><br/>
+ 
+  - As with `CDS` and `repeat_region`, we need to add some qualifiers. This is achieved by selecting the `mobile_element` and then pressing <kbd>Insert</kbd>. You will get an "Add new qualifier" pop-up window to type in: 
+    - Name: `mobile_element_type`, Value: `insertion sequence:ISCca4`.
+      
+      ![](./images/UGENE/3.36_UGENE_ISCca4_ME_annot_MEtype.png)
+      <br/><br/>
+
+    - Name: `rpt_family`, Value: `IS982`.
+      
+      ![](./images/UGENE/3.37_UGENE_ISCca4_ME_annot_rptFamily.png)
+      <br/><br/>
+      
+    - Name: `rpt_type`, Value: `DISPERSED`.
+      
+      ![](./images/UGENE/3.38_UGENE_ISCca4_ME_annot_rptType.png)
+      <br/><br/>
+ 
+  - Done! Your annotaiton should look as follows.
+    
+    ![](./images/UGENE/3.39_UGENE_ISCca4_ME_annot_final.png)
+
+</details>
+
+---
+
+#### Exporting to GenBank format
+<details>
+  
+  <summary>See more</summary>
+  Now that we are done, we do not want to loose our work. So, let's go ahead and export the sequence along with the annotation in two simple steps
+  
+  - First, go to the left panel and find the sequence feature (`ISCca4.fasta` if you opened the file). Right click 🖱️ and go to `Export/Import -> Export sequences...`.
+
+    ![](./images/UGENE/3.40_UGENE_ISCca4_ME_annot_final_export.png)
+    <br/><br/>
+    
+  - Set the name of the output file to `ISCca4.gb` and select `GenBank` form the "File format to use" drop-down menu. Now click <img src="./images/UGENE/UGENE_export_button.png" height="17"> 🖱️.
+
+    ![](./images/UGENE/3.41_UGENE_ISCca4_ME_annot_final_export_gbkFile)
+    <br/><br/>
+ 
+  - Done!
+
+</details>
+
+Congrats! If you made it all the way down here, you succesfuly annotated your first IS element! 🥳
+
+---
+
 ## Further reading
 **INSDC feature table:** [https://www.insdc.org/submitting-standards/feature-table/](https://www.insdc.org/submitting-standards/feature-table/).
 ISfinder's *General Information* tab: [https://isfinder.biotoul.fr/general_information.php](https://isfinder.biotoul.fr/general_information.php).
