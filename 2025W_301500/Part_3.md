@@ -247,5 +247,5 @@ Siguier P, Varani A, Perochon J, Chandler M. *Exploring bacterial insertion sequ
 <br/>
 
 <p align="right">
-    <kbd> <br> <a href="./Part_3.md"><big><b>Next: Part 3</b></big></a> <br> </kbd>
+    <kbd> <br> <a href="./Part_4.md"><big><b>Next: Part 4</b></big></a> <br> </kbd>
 </p>
