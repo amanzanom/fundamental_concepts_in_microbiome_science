@@ -1,7 +1,13 @@
 # Part 3: Annotation of a "typical" IS element (together)
 👷🏽🏗️ Under construction....
 
-# Part 2: ISfinder database
+For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria. So, let's go ahead and download the [`ISCca4.fasta`](./data/ISCca4.fasta) (right click 🖱️ and download).
+
+- Drag the downloaded file (`ISCca4.fasta`) into UGENE or open it (Top-left corner `File -> Open`).
+
+![](./images/ISfinder/2.04_ISfinder_search.png)
+<br/><br/>
+
 ISfinder is a large centralised database of IS elements of Bacteria and Archaea. It also serves as a valuable resource for annotation of similar and related IS elements to those in the database. In fact, popular annotation pipelines, such as [Prokka](https://github.com/tseemann/prokka) or [Bakta](https://github.com/oschwengers/bakta?tab=readme-ov-file#database), use this database to make predictions on open reading frames (or predicted proteins).
 
 ## Interface
