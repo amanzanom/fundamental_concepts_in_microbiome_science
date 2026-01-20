@@ -1,1 +1,0 @@
-Temporary folder to create UGENE directory
