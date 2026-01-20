@@ -39,8 +39,52 @@ For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria
     <br/><br/>
 
 - Back in UGENE, let's now annotate the transposase gene.
-  - First, lets use gain that "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">)
-    ![](./images/UGENE/3.04_ISfinder_blast_ISCca4_sequence.png)
+  - First, let's use gain that "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">) and input the range of the BLAST hit (`112 - 982`).
+    ![](./images/UGENE/3.07_UGENE_annot_ISCca4_select_hit.png)
+    <br/><br/>
+
+  - Transposase gene start: `MNVEKLVEI...`. Does it look good?
+    ![](./images/UGENE/3.08_UGENE_annot_ISCca4_select_hit_start.png)
+    <br/><br/>
+
+  - Transposase gene end: `...TNIYMTGSQ`. Does it look good?
+    ![](./images/UGENE/3.09_UGENE_annot_ISCca4_select_hit_end.png)
+    <br/><br/>
+
+  - Let's modify the end so that it includes the stop codon (*) to `112 - 993` using the "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">) .
+    ![](./images/UGENE/3.10_UGENE_annot_ISCca4_select_hit_modifyRange.png)
+    <br/><br/>
+
+  - XXXXXXXXXX.
+    ![](./images/UGENE/3.11_UGENE_annot_ISCca4_select_hit_correct.png)
+    <br/><br/>
+
+  - XXXXXXXXXX.
+    ![](./images/UGENE/3.12_UGENE_annot_ISCca4_CDS_create.png)
+    <br/><br/>
+
+  - XXXXXXXXXX.
+    ![](./images/UGENE/3.13_UGENE_annot_ISCca4_CDS_feature.png)
+    <br/><br/>
+
+  - XXXXXXXXXX.
+    ![](./images/UGENE/3.14_UGENE_annot_ISCca4_CDS_codonStart_create.png)
+    <br/><br/>
+
+  - XXXXXXXXXX.
+    ![](./images/UGENE/3.15_UGENE_annot_ISCca4_CDS_translTable_create.png)
+    <br/><br/>
+
+  - XXXXXXXXXX.
+    ![](./images/UGENE/3.16_UGENE_annot_ISCca4_CDS_product_create.png)
+    <br/><br/>
+
+  - XXXXXXXXXX.
+    ![](./images/UGENE/3.17_UGENE_annot_ISCca4_CDS_tranlsation_create.png)
+    <br/><br/>
+
+  - XXXXXXXXXX.
+    ![](./images/UGENE/3.18_UGENE_annot_ISCca4_CDS_wQuals.png)
     <br/><br/>
 
 ## Interface
