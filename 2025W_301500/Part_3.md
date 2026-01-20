@@ -242,8 +242,7 @@ What about the repeats? How would you go about discovering if this transposase i
 
 ## Further reading
 **INSDC feature table:** [https://www.insdc.org/submitting-standards/feature-table/](https://www.insdc.org/submitting-standards/feature-table/).
-
-Siguier P, Varani A, Perochon J, Chandler M. *Exploring bacterial insertion sequences with ISfinder: objectives, uses, and future developments*. In: Bigot Y (editor). *Mobile Genetic Elements: Protocols and Genomic Applications*. Totowa, NJ: Humana Press. pp. 91–103. [https://doi.org/10.1007/978-1-61779-603-6_5](https://doi.org/10.1007/978-1-61779-603-6_5).
+ISfinder's *General Information* tab: [https://isfinder.biotoul.fr/general_information.php](https://isfinder.biotoul.fr/general_information.php).
 <br/>
 
 <p align="right">
