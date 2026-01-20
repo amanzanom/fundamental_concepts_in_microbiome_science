@@ -65,7 +65,7 @@ For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria
     \** CDS: portion of a gene that is translated into protein. It begins with a start codon (ATG, GTG, TTG) and ends with a stop codon (*).
     <br/><br/>
 
-  - Let's click (<kbd>Ctrl + N</kbd>). This will open the "Create Annotation" window. We will select `CDS` from the "Annotation type" menu, and write `CDS` in both "Group name" and "Annotation name" fields. Now let's click <img src="./images/UGENE/UGENE_create_button.png" height="17" title="Select sequence region"> 🖱️.
+  - Let's click (<kbd>Ctrl + N</kbd>). This will open the "Create Annotation" window. We will select `CDS` from the "Annotation type" menu, and write `CDS` in both "Group name" and "Annotation name" fields. Now let's click <img src="./images/UGENE/UGENE_create_button.png" height="17"> 🖱️.
 
     ![](./images/UGENE/3.12_UGENE_annot_ISCca4_CDS_create.png)
     <br/><br/>
@@ -98,11 +98,33 @@ For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria
       <br/><br/>
 
   - Great! Now, our transposase gene is annotated!
+
     ![](./images/UGENE/3.18_UGENE_annot_ISCca4_CDS_wQuals.png)
     <br/><br/>
 
-  - What about the repeats? For this, we will use [T-coffee](https://tcoffee.crg.eu/apps/tcoffee/do:mcoffee) for alignment.
-    How would you go about discovering if this transposase is flanked or not by inverted/direct repeats?
+  - What about the repeats? How would you go about discovering if this transposase is flanked or not by inverted/direct repeats?
+ 
+    <details>
+
+    <summary>See more</summary>
+ 
+    - First, lets grab the first 30 and last 30 nucleotides. We cna do this using the "Select sequence region" button (<img src="./images/UGENE/UGENE_select_button.png" height="17" title="Select sequence region">) 🖱️.
+    
+      ![](./images/ISfinder/2.07_ISfinder_search_ISCca4_details.png)
+      <br/><br/>
+
+    - DNA section: Ends & insertion site
+    
+      ![](./images/ISfinder/2.08_ISfinder_search_ISCca4_DNA_section_part01.png)
+      <br/><br/>
+
+    - DNA section: Inverted repeats (IRL and IRR)
+    
+      ![](./images/ISfinder/2.09_ISfinder_search_ISCca4_DNA_section_part01_IR.png)
+      <br/><br/>
+
+    </details>
+    <br/><br/>
 
     ![](./images/UGENE/3.18_UGENE_annot_ISCca4_CDS_wQuals.png)
     <br/><br/>
