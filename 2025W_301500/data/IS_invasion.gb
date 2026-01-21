@@ -1,0 +1,238 @@
+LOCUS       COW441264.1_partial 4303 bp        DNA       linear BCT 09-DEC-2021
+DEFINITION  Cardinium sp. strain cOegibbosus-W744x776, region 78835..83137.
+ACCESSION   
+KEYWORDS    .
+SOURCE      Cardinium sp.
+  ORGANISM  Cardinium sp.
+            Unclassified.
+FEATURES             Location/Qualifiers
+     source          1..4303
+                     /organism="Cardinium endosymbiont of Oedothorax gibbosus"
+                     /host="Oedothorax gibbosus"
+                     /chromosome="1"
+                     /strain="cOegibbosus-W744x776"
+                     /mol_type="genomic DNA"
+                     /lat_lon="50.924 N 4.867 E"
+                     /isolation_source="host's whole body; Offspring from
+                     laboratory-kept female W744 and male W776, both
+                     originating from same natural population"
+                     /collected_by="Frederik Hendrickx"
+                     /collection_date="Oct-2013"
+                     /country="Belgium: Walenbos forest, Tielt-Winge"
+                     /db_xref="taxon:931101"
+                     /note="region 78835..83137"
+     mobile_element  join(1..663,4124..4303)
+                     /mobile_element_type="insertion sequence:ISCca2"
+                     /rpt_type="DISPERSED"
+                     /note="Interrupted by the insertion of a group II intron;
+                     Pseudogenised transposase gene due to a frameshift and an
+                     early stop codon caused by a p.Tyr27Trp mutation"
+                     /rpt_family="IS6"
+     repeat_region   1..13
+                     /note="ISCca2, terminal inverted repeat IRL"
+                     /rpt_type="INVERTED"
+     gene            join(65..663,4124..4231)
+                     /pseudogene="unknown"
+                     /locus_tag="CAOEGIBSW744_0066"
+                     /note="Transposase ISCca2, IS6 family; Interrupted by the
+                     insertion of a group II intron; Interrupted by a
+                     frameshift and an early stop codon caused by a p.Tyr27Trp
+                     mutation; Predicted based upon similarity to related
+                     proteins in this genome and IS finder"
+     mobile_element  join(664..1719,2954..3308,3554..4122)
+                     /note="autocatalytically spliced intron; Interrupted by
+                     the insertion of several mobile elements"
+                     /rpt_type="DISPERSED"
+                     /mobile_element_type="other"
+                     /rpt_family="GII_intron"
+     ncRNA           join(664..1719,2954..3308,3554..4122)
+                     /ncRNA_class="autocatalytically_spliced_intron"
+                     /pseudogene="unknown"
+                     /product="Group II catalytic"
+                     /locus_tag="CAOEGIBSW744_0067A"
+     misc_structure  688..816
+                     /note="Group II catalytic intron D1-D4-4"
+                     /inference="COORDINATES:profile:Infernal:1.1.3:RFAM:RF02003"
+     CDS             989..1159
+                     /codon_start=1
+                     /transl_table=11
+                     /note="Small protein found upstream of the reverse
+                     transcriptase/maturase from group II intron"
+                     /locus_tag="CAOEGIBSW744_0067B"
+                     /product="Group II intron-encoded hypothetical protein"
+                     /translation="MNPVGHWKLYCISKAKSIRVISEVRGVYNTVRIDWETTQEERDP
+                     TSVNEFKRVENV"
+     gene            join(1152..1719,2954..3308,3554..3958)
+                     /pseudogene="unknown"
+                     /locus_tag="CAOEGIBSW744_0067C"
+                     /note="Group II intron-encoded reverse
+                     transcriptase/maturase; Interrupted by the insertion of
+                     several mobile elements; Predicted based upon similarity
+                     to PFAM RVT_1, GIIM, and related proteins in this genome
+                     and nr"
+     mobile_element  complement(1720..1792)
+                     /note="Partial; 3'-end; Interrupted by the insertion of
+                     anISCca4 element; Pseudogenised transposase gene; Missing
+                     terminal inverted repeat IRL"
+                     /mobile_element_type="insertion sequence:ISCca4"
+                     /rpt_type="DISPERSED"
+                     /rpt_family="IS982"
+     repeat_region   complement(1720..1738)
+                     /rpt_type="INVERTED"
+                     /note="ISCca4, terminal inverted repeat IRR"
+     gene            complement(1734..1792)
+                     /locus_tag="CAOEGIBSW744_0068"
+                     /pseudogene="unknown"
+                     /note="Transposase ISCca4, IS982 family, partial; 3'-end;
+                     Interrupted by the insertion of an ISCca4 element;
+                     Predicted based upon similarity to related proteins in
+                     this genome and IS finder"
+     mobile_element  1793..2191
+                     /mobile_element_type="insertion sequence:ISCca4"
+                     /note="Partial; 5'-end; C-terminally truncated
+                     transposasegene; Pseudogenised transposase gene due to an
+                     early stop codon caused by p.Tyr83Ter mutation; Presents
+                     an additional putative IRL not present in all ISCca4
+                     mobile elements"
+                     /rpt_family="IS982"
+                     /rpt_type="DISPERSED"
+     repeat_region   1793..1811
+                     /note="ISCca4, terminal inverted repeat IRL"
+                     /rpt_type="INVERTED"
+     gene            1899..2191
+                     /locus_tag="CAOEGIBSW744_0069"
+                     /pseudogene="unknown"
+                     /note="Transposase ISCca4, IS982 family, partial; 5'-end;
+                     Interrupted by a frameshift and an early stop codon
+                     caused by a p.Tyr83Ter mutation; Predicted based upon
+                     similarity to related proteins in this genome and IS
+                     finder"
+     mobile_element  2192..2431
+                     /note="Putative IS-like mobile element"
+                     /mobile_element_type="other:ISlCca01"
+                     /rpt_type="DISPERSED"
+     repeat_region   2192..2207
+                     /rpt_type="INVERTED"
+                     /note="ISlCca01, terminal inverted repeat IRL"
+     repeat_region   2416..2431
+                     /note="ISlCca01, terminal inverted repeat IRR"
+                     /rpt_type="INVERTED"
+     gene            complement(2432..2847)
+                     /locus_tag="CAOEGIBSW744_0070"
+                     /pseudogene="unknown"
+                     /note="Transposase ISCca4, IS982 family, partial; 5'-end;
+                     Interrupted by a frameshift and an early stop codon
+                     caused by a p.Tyr83Ter mutation; Predicted based upon
+                     similarity to related proteins in this genome and IS
+                     finder"
+     mobile_element  complement(2432..2953)
+                     /mobile_element_type="insertion sequence:ISCca4"
+                     /note="Partial; 5'-end; C-terminally truncated
+                     transposasegene; Pseudogenised transposase gene due to an
+                     early stop codon caused by p.Tyr83Ter mutation"
+                     /rpt_family="IS982"
+                     /rpt_type="DISPERSED"
+     repeat_region   complement(2935..2953)
+                     /note="ISCca4, terminal inverted repeat IRL"
+                     /rpt_type="INVERTED"
+     repeat_region   complement(3304..3308)
+                     /note="target site duplication generated by insertion of
+                     ISlCca01"
+                     /rpt_type="DIRECT"
+     mobile_element  complement(3309..3548)
+                     /mobile_element_type="other:ISlCca01"
+                     /note="Putative IS-like mobile element"
+                     /rpt_type="DISPERSED"
+     repeat_region   complement(3309..3324)
+                     /note="ISlCca01, terminal inverted repeat IRR"
+                     /rpt_type="INVERTED"
+     repeat_region   complement(3533..3548)
+                     /note="ISlCca01, terminal inverted repeat IRL"
+                     /rpt_type="INVERTED"
+     repeat_region   complement(3549..3553)
+                     /note="target site duplication generated by insertion of
+                     ISlCca01"
+                     /rpt_type="DIRECT"
+     repeat_region   3580..3613
+                     /rpt_type="TANDEM"
+                     /rpt_unit_range="82414..82430"
+                     /rpt_unit_seq="TCCAACAAGTGGCAGAA"
+                     /note="Internal tandem repeat of pseudogenised reverse
+                     transcriptase/maturase, group II intron protein"
+     repeat_region   4291..4303
+                     /note="ISCca2, terminal inverted repeat IRR"
+                     /rpt_type="INVERTED"
+ORIGIN
+        1 GATTTTGTCG CGTTTATTCT AAAAAATCAT TATTTTAGTA TCTGCAGTTA AAAAAGTAGT
+       61 TATTATGTTT AATATTTCGC CCAAATTATT ACCTTATTTT AAGGGCTATT GTTCTTCAGC
+      121 AGAAGTCATC CTGTTATTTG TCTAGATGAA GTATTGTTTT TCCTTGAGCT ATAGAATTTG
+      181 GAAGATATGA TGCGTATGAG AGGCGCAAGA GTTGATCATT CTACGCTACA AAGATGGGTT
+      241 ATTAAGTTTG TTCCTCTTAT AGATGAAGCA GTAAGCAAAA GAAAACGACC AGTTGGTGGT
+      301 AGTTGGAGAA TGGATGAAAC CTATGTTAAA CTAAACGGGA AGTGGATCTA TTTATATAGA
+      361 GCAGTAGATC GTTATGGTGA TACAGTTAAC TTTTTTTTAT CTGAGCATAG AGACAAGTCT
+      421 GCAGCTTTTT CTTTTTTTCG TAAGGCGATC ACAGAAAATA ATATTCCTAA GAAAGTAGTA
+      481 ATTGACAAAA GCGGTAGTAA TAAAGCTGCC CTTGATACGA TCAATACAGA ACTTGATCAA
+      541 GATCATACCA TTCAAATATT TCAAAACAAA TACTTGAATA ATAGAGTTGA ACAAGATCAT
+      601 AGGTTTATCA AAAAACGGCT AAAACCTATG CTTAGTTTTA AGTGTTTTAA GTCTGCAGCC
+      661 ATTGCACGCC GGCACAGGTG TGCAACAAAT GGGGTGTAAG TCCCCTGACT CTAATTTGTC
+      721 TATTTCGGGA GTCTAGCAGG AGGTTGGATT TGTGGGGTGA TTCACAGGTT TAAGTTACCT
+      781 TTAAATGCAT CTGCAAAATA GCGGGCTGCA ACAAAAGTGA ACCTAAATTA GCCTCGTTAA
+      841 GCCGTTTAAG CGCATTTGCC GACTATCTAG TGGCTACAGG AAGGCTGATA GTAGGATGGA
+      901 AAAAATAGAC CATGACCATC ATACAAGTGC CGGGGTGTTA GGGGTTGCAC GCTATGAATG
+      961 TTTCACATCG TAGTCCGGGA GATCTGATAT GAATCCAGTA GGCCACTGGA AACTTTATTG
+     1021 TATAAGTAAA GCGAAATCAA TAAGGGTGAT ATCAGAAGTC CGCGGGGTCT ATAATACCGT
+     1081 TCGTATTGAT TGGGAAACCA CTCAAGAGGA AAGGGACCCT ACTTCAGTTA ACGAGTTTAA
+     1141 AAGAGTTGAG AATGTCTGAT TGCCCTAAAG CTATGAACGG AACATTAAAA GTTCAGCAAC
+     1201 TCCAAAGAAC TCTATATCTC AAATCCAAGC AATGTAAGGA AGTCAGATTT TATAGTATAT
+     1261 ATGATAAAAT TTATCTAAAA GATGTACTTT GGGAAGCTTG GCGTCAAGTC AAAGCAAATC
+     1321 AAGGTTCAGC AGGGATTGAT GGTAAAAGCA TAAGTGATAT AATAGATCAA GGTGAGGCAA
+     1381 AGATTATCAA TAAATTGCAG CAGCAACTAC GCGCAAAGCT ATACAAATTT ACCTCAAGCA
+     1441 GGTTGGTAGA AATACCCAAA GCTAAAGGTG GAACAAGGCC ACTAGAGGTA ATGACCGTAG
+     1501 AAGATCTCAT AGTGCTCACA GCAATGAAAA TAGTCATTGA ACCGATCTTC GAAGCTGATT
+     1561 TTCATGAATG TTCATACGGC TATAGACCGA AACGAGGAGC CAAACAAGCG AGTTTAGTGA
+     1621 TCCGAGAAGA TCTATACCAG CAGGCATGGG GCGTAGTTGA GATTGATTTT CAATCATACT
+     1681 TTACTGGCAT CCCACACGAA AAGTTATTAA AACTTATTAA CCTCAGTTCG GGATTAGACG
+     1741 TATTGTGAAC CAGTCATATA TATATTAGTT ATAGAAGGTT TTTTCTCTTT TAACGTGAGT
+     1801 TCGGGATTAG CTTGTTAAAA AATAGCTTTA AAAAGCTCCT TTGTGTTTTA AATTTGGAGA
+     1861 TAAAAAAATA CTAACCAGAT TATCCAAAGG AGCCAGTTAT GAATGTAGAA AAATTAGTTG
+     1921 AAATATATTG TGCTGTTAAT GAATTTCTCA TAAAGTTTAT GCCGTATATG GAAAAACAAC
+     1981 TGTTAACCAA CTCTAAAAGA AAACCCACTA GAACTTGTTC ATTAACTTTG AGTGAAATAA
+     2041 TGACTGTTCT TATTGCCTTT CATGTGATTG GTTTTAGAAA TTTTAAGTCT TATTATATTC
+     2101 ATTTACAGCA ATTTCATTCT GGTGAATTTG GAAAGTTAGT AAGCTAGAAT AGATTTATAG
+     2161 AACTGATCCA AAGAACGTTA GTTCCCTTGT AACGTGAGTT CGGGATTAGA TTATTTTTTC
+     2221 ATTTGATAAT CAATATCAAT GAAAATTTAT AAAATTTGTT TTATAGACAG TTAAATAGGT
+     2281 AGTTGAATAA AAAATAATTC TGATAATCAG TTTATTATAT ATATTATATT TATAAAATTA
+     2341 GATATAAAAA CTTGTTAAAT AGGTGCAAAT ATTAACTAAA TAATTGATAT TAAATTGTTG
+     2401 TAAATCAGTC AAATAAATCC CGAACTCAAG TTTAGTAGCA ATCGATTTAA AAACCCTGTG
+     2461 CGTATAGGCT CTTTTGATAT GGCAAACCTT GATGGCTGTT GCATCCATAA AATAACAACC
+     2521 TGTTTTTGTT TTAGAAAAAC TTTGTGTAAA ACAGTACAAG GGAACTAACG TTCTTTGGAT
+     2581 CAGTTCTATA AATCTATTCT AGCTTACTAA CTTTCCAAAT TCACCAGAAT GAAATTGCTG
+     2641 TAAATGAATA TAATAAGACT TAAAATTTCT AAAACCAATC ACATGAAAGG CAATAAGAAC
+     2701 AGTCATTATT TCACTCAAAG TTAATGAACA AGTTCTAGTG GGTTTTCTTT TAGAGTTGGT
+     2761 TAACAGTTGT TTTTCCATAT ACGGCATAAA CTTTATGAGA AATTCATTAA CAGCACAATA
+     2821 TATTTCAACT AATTTTTCTA CATTCATAAC TGGCTCCTTT GGATAATCTG GTTAGTATTT
+     2881 TTTTATCTCC AAATTTAAAA CACAAAGGAG CTTTTTAAAG CTATTTTTTA ACAAGCTAAT
+     2941 CCCGAACTCA CGTTAAAAGG ATAGCAGATG GCAGTATGTT GAAGCTAATT AAACAAACCC
+     3001 TAACAACGTC AATAGCAAAA CAAGGTAAAA TTACATGCAA GAAAGTTGGA GTACCGCAAG
+     3061 GATCACCAAT ATCACCGTTG TATAGTAATA TCTACCTAAA TGTTATAGAC CAAGTGTGGC
+     3121 ACTCAAGGGG GTATCCAGAA AAGCTAAGCG CAACCTTGCA TAGGTATTGT GATGATGCAA
+     3181 TTTTGGTATG TCGTAAGAGT GCTAGCTTAG CGCTGGAGAA ATTCACAGAA TTAGTAAAGA
+     3241 GGTTATCGCT CATTATTAAC CACCAAAAGA CACGAATAAC GAAACTGAAA GAAGGCTTTA
+     3301 ACTTCATAAC GTGAGTTCGG GATTTATTTG ACTGATTTAC AACAATTTAA TATCAATTAT
+     3361 TTAGTTAATA TTTGCACCTA TTTAACAAGT TTTTATATCT AATTTTATAA ATATAATATA
+     3421 TATAATAAAC TGATTATCAG AATTATTTTT TATTCAACTA CCTATTTAAC TGTCTATAAA
+     3481 ACAAATTTTA TAAATTTTCA TTGATATTGA TTATCAAATG AAAAAATAAT CTAATCCCGA
+     3541 ATTCACGTTC ATAGGTTTTT ACTTTGTAAA AAGAAAGAGT CCAACAAGTG GCAGAATCCA
+     3601 ACAAGTGGCA GAAATAGCAT TTATGTATTT CCAACGAAAC AATCCCAACA AAGCATCCGT
+     3661 AACAGACTAA AATACCTGAC TTGTAGAAGA GCACCAATCA AACCTCAAGC ATTCATCGAG
+     3721 CAAATAAAAC CAGTAGTGTT AGGATGGGTT AACTATTTTA AACATACGAG CGAGTGAAGC
+     3781 TTTTGTTAGA TTGCAGGACT TTATTAATAA CCGATTTCGC AGATACTTAA CCCATAGAAG
+     3841 AAAAGGCCGT GGATGTGGGT GGCAAAGCTG TCCCAATAGC AAACTCTATA CAATGGGGAT
+     3901 GTTGTACATT GGTAGTGGAA TGATTAAGTA TCCTGAGAGA GTTGTGCAAG GTTTATAAAG
+     3961 AAGACTGTCG GACCGCCGTA TTCGGGAAAA CTGAACGTAC GGTGGGATGA GAAGGGAATG
+     4021 GGTAAACAAT GAAGAATCAA GTTAGTCAGC TACTGTATTG CGAGCAATCA GAAGCAATAG
+     4081 ATATGCTTAA TTTTAAGTGG TCCAACCATT TCTTTACTCT AGGACCATTG CAGGGATAGA
+     4141 AAACATTCCT ATGATTCAAA AAGGACAAGT AATCGGAGCT AAAAATCATC TTTCTACTTT
+     4201 TGAGAATTTT GTTATGCTAA TGGCCGAATA ATAACCAATA TATATCCAAA ACTTCACTTA
+     4261 AAAGAAAAGA CGTTACTAAC GAAAATATAG ACGCGACAGA ACC
+//
