@@ -16,14 +16,14 @@ Moodle link: https://moodle.univie.ac.at/course/view.php?id=450686 XXXX
 ### Annotation editor
 UGENE: [https://ugene.net](https://ugene.net/)
 
-#### UGENE keyboard shortcuts
-| Keys                        | Description                                                  |
-| --------------------------: | :----------------------------------------------------------- |
-| <kbd>Ctrl + C</kbd>         | Copy nucleotides                                             |
-| <kbd>Ctrl + Shift + C</kbd> | Copy reverse complement nucleotides                          |
-| <kbd>Ctrl + T</kbd>         | Copy translated nucleotides (amino acids)                    |
-| <kbd>Ctrl + Shift + T</kbd> | Copy reverse complement translated nucleotides (amino acids) |
-| <kbd>Ctrl + V</kbd>         | Paste                                                        |
+- UGENE keyboard shortcuts
+  | Keys                        | Description                                                  |
+  | --------------------------: | :----------------------------------------------------------- |
+  | <kbd>Ctrl + C</kbd>         | Copy nucleotides                                             |
+  | <kbd>Ctrl + Shift + C</kbd> | Copy reverse complement nucleotides                          |
+  | <kbd>Ctrl + T</kbd>         | Copy translated nucleotides (amino acids)                    |
+  | <kbd>Ctrl + Shift + T</kbd> | Copy reverse complement translated nucleotides (amino acids) |
+  | <kbd>Ctrl + V</kbd>         | Paste                                                        |
 
 ### Genome
 Cardinium endosymbiont of Oedothorax gibbosus: [https://www.ebi.ac.uk/ena/browser/view/OW441264.1](https://www.ebi.ac.uk/ena/browser/view/OW441264.1).
