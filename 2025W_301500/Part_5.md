@@ -2,13 +2,13 @@
 In this part we will go through a quite complex case of multiple nested insertions of mobile elements. This is a section to go through together and discuss.
 
 ## IS invasions (Matrix mode 💊🫲 😎 🫱💊)
-When working with certain organisms, such as those endosymbionts mentioned in the presentation, mobile elements, including ISs, can get really wild, undergoing quite complex nested insertions. KNowing what we know now, and knowing how to go through an annotation file, can you guess the correct order of invasions? 
+When working with certain organisms, such as those endosymbionts mentioned in the presentation, mobile elements, including ISs, can get really wild, undergoing quite complex nested insertions.
 
-- For this part we will work with a case of multiple nested insertions of MEs from *Cardinium* bacteria. So, go ahead and download the [`IS_invasion.gb`](./data/IS_invasion.fasta) (right click 🖱️ and download).
+- For this part we will work with a case of multiple nested insertions of MEs from *Cardinium* bacteria. So, go ahead and download the [`IS_invasion.gb`](./data/IS_invasion.gb) (right click 🖱️ and download).
 
 - Drag the downloaded file (`IS_invasion.gb`) into UGENE or open it (Top-left corner `File -> Open`).
 
-- This is how your annotation should look like. You can also download the corresponding annotation file ([`ISCca4_ISCca10_nested.gb`](./results/ISCca4_ISCca10_nested.gb)) and check it against your own. Did you get it?
+- This is how the annotation should look like. Knowing what we know now, and knowing how to go through an annotation file, can you guess the correct order of invasions? 
 
   ![](./images/UGENE/5.01_UGENE_ISinvasion_annot_final.png)
 
