@@ -17,13 +17,13 @@ Moodle link: https://moodle.univie.ac.at/course/view.php?id=450686 XXXX
 UGENE: [https://ugene.net](https://ugene.net/)
 
 #### UGENE keyboard shortcuts
-| keys        | Description                                         |
-| ----------: | :-------------------------------------------------- |
-| **blastn**  | nucleotides *vs.* nucleotides                       |
-| **blastp**  | proteins *vs.* proteins                             |
-| **blastx**  | translated nucleotides *vs.* proteins               |
-| **tblastn** | protein *vs.* translated nucleotides                |
-| **tblastx** | translated nucleotides *vs.* translated nucleotides |
+| Keys                        | Description                                                  |
+| --------------------------: | :----------------------------------------------------------- |
+| <kbd>Ctrl + C</kbd>         | Copy nucleotides                                             |
+| <kbd>Ctrl + Shift + C</kbd> | Copy reverse complement nucleotides                          |
+| <kbd>Ctrl + T</kbd>         | Copy translated nucleotides (amino acids)                    |
+| <kbd>Ctrl + Shift + T</kbd> | Copy reverse complement translated nucleotides (amino acids) |
+| <kbd>Ctrl + V</kbd>         | Paste                                                        |
 
 ### Genome
 Cardinium endosymbiont of Oedothorax gibbosus: [https://www.ebi.ac.uk/ena/browser/view/OW441264.1](https://www.ebi.ac.uk/ena/browser/view/OW441264.1).
