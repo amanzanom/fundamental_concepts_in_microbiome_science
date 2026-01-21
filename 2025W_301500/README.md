@@ -16,7 +16,14 @@ Moodle link: https://moodle.univie.ac.at/course/view.php?id=450686 XXXX
 ### Annotation editor
 UGENE: [https://ugene.net](https://ugene.net/)
 
-Cheat-sheet
+#### UGENE keyboard shortcuts
+| keys        | Description                                         |
+| ----------: | :-------------------------------------------------- |
+| **blastn**  | nucleotides *vs.* nucleotides                       |
+| **blastp**  | proteins *vs.* proteins                             |
+| **blastx**  | translated nucleotides *vs.* proteins               |
+| **tblastn** | protein *vs.* translated nucleotides                |
+| **tblastx** | translated nucleotides *vs.* translated nucleotides |
 
 ### Genome
 Cardinium endosymbiont of Oedothorax gibbosus: [https://www.ebi.ac.uk/ena/browser/view/OW441264.1](https://www.ebi.ac.uk/ena/browser/view/OW441264.1).
