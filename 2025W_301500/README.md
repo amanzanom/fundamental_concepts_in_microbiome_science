@@ -11,7 +11,7 @@ This exercise will consist of four different parts:
 
 
 ## Resources
-Moodle link: https://moodle.univie.ac.at/course/view.php?id=450686 XXXX
+Moodle link: [https://moodle.univie.ac.at/course/view.php?id=450684](https://moodle.univie.ac.at/course/view.php?id=450684)
 
 ### Annotation editor
 UGENE: [https://ugene.net](https://ugene.net/)
