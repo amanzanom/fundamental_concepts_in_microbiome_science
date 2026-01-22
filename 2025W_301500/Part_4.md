@@ -1,7 +1,7 @@
 # Part 4: Annotate your own IS elements (independent)
 
 ## Annotate a single ISCca10 🤓
-Here, its time to test yourself. Can you go through the process of annotating yourself an IS element now? For this part we will work with `ISCca10` from *Cardinium* bacteria. So, go ahead and download the [`ISCca10.fasta`](./data/ISCca10.fasta) (right click 🖱️ and download).
+Here, its time to test yourself. Can you go through the process of annotating yourself an IS element now? For this part we will work with `ISCca10` from *Cardinium* bacteria. So, go ahead and download the [`ISCca10.fasta`](./data/ISCca10.fasta) (right click 🖱️, open in new tab, then hit the "Dowload raw file" button at the top-right of the viewer). <img src="./images/GITHUB_dowloadRawFile_button.png" height="40">
 
 - Remember, you can start by dragging the downloaded file (`ISCca10.fasta`) into UGENE or open it (Top-left corner `File -> Open`).
 
@@ -20,7 +20,7 @@ Now, go!
 ---
 
 ## Annotate nested IS elements (advanced 😎)
-Here, its time to test yourself, advanced mode! Can you go through the process of annotating yourself an IS element nested within another IS element? For this part we will work with `ISCca4` and `ISCca10` from *Cardinium* bacteria. So, go ahead and download the [`ISCca4_ISCca10_nested.fasta`](./data/ISCca4_ISCca10_nested.fasta) (right click 🖱️ and download).
+Here, its time to test yourself, advanced mode! Can you go through the process of annotating yourself an IS element nested within another IS element? For this part we will work with `ISCca4` and `ISCca10` from *Cardinium* bacteria. So, go ahead and download the [`ISCca4_ISCca10_nested.fasta`](./data/ISCca4_ISCca10_nested.fasta) (right click 🖱️, open in new tab, then hit the "Dowload raw file" button at the top-right of the viewer). <img src="./images/GITHUB_dowloadRawFile_button.png" height="40">
 
 - Remember, you can start by dragging the downloaded file (`ISCca4_ISCca10_nested.fasta`) into UGENE or open it (Top-left corner `File -> Open`).
 
