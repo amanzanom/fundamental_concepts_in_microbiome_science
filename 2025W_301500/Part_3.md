@@ -1,7 +1,7 @@
 # Part 3: Annotation of a "typical" IS element (together)
 
 ## Annotate ISCca4
-For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria. So, let's go ahead and download the [`ISCca4.fasta`](./data/ISCca4.fasta) (right click 🖱️ and download).
+For this part we will revisit the transposase `ISCca4` from *Cardinium* bacteria. So, let's go ahead and download the [`ISCca4.fasta`](./data/ISCca4.fasta) (right click 🖱️, open in new tab, then hit the "Dowload raw file" button at the top-right of the viewer).
 
 - Drag the downloaded file (`ISCca4.fasta`) into UGENE or open it (Top-left corner `File -> Open`).
 
