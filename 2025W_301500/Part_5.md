@@ -4,7 +4,7 @@ In this part we will go through a quite complex case of multiple nested insertio
 ## IS invasions (Matrix mode 💊🫲 😎 🫱💊)
 When working with certain organisms, such as those endosymbionts mentioned in the presentation, mobile elements, including ISs, can get really wild, undergoing quite complex nested insertions.
 
-- For this part we will work with a case of multiple nested insertions of MEs from *Cardinium* bacteria. So, go ahead and download the [`IS_invasion.gb`](./data/IS_invasion.gb) (right click 🖱️ and download).
+- For this part we will work with a case of multiple nested insertions of MEs from *Cardinium* bacteria. So, go ahead and download the [`IS_invasion.gb`](./data/IS_invasion.gb) (right click 🖱️, open in new tab, then hit the "Dowload raw file" button at the top-right of the viewer). <img src="./images/GITHUB_dowloadRawFile_button.png" height="40">
 
 - Drag the downloaded file (`IS_invasion.gb`) into UGENE or open it (Top-left corner `File -> Open`).
 
